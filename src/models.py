@@ -1,10 +1,10 @@
 import os 
 import sys 
-from sqlalchemy import Column, ForeignKey, Integer, String, Text, DateTime, Enum 
+from sqlalchemy import Column, ForeignKey, Integer, String, Text
 from sqlalchemy.orm import relationship, declarative_base 
 from sqlalchemy import create_engine 
 from eralchemy2 import render_er 
-from datetime import datetime
+
 
 
 Base = declarative_base() 
